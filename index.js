@@ -85,7 +85,7 @@ controller.hears(
 );
 
 controller.hears(
-  ['joke', 'fun', 'run', 'next', 'say'],
+  ['joke', 'fun', 'run', 'next', 'say', ':vag:'],
   ['direct_message', 'direct_mention', 'mention'],
   (bot, message) => {
     let answer = 'Sorry i don\t have any texts configured!';
