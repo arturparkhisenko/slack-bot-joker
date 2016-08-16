@@ -4,8 +4,6 @@
           \ \  __<   \ \ \/\ \  \/_/\ \/ \ \  _"-.  \ \ \  \/_/\ \/
            \ \_____\  \ \_____\    \ \_\  \ \_\ \_\  \ \_\    \ \_\
             \/_____/   \/_____/     \/_/   \/_/\/_/   \/_/     \/_/
-This is a sample Slack bot built with Botkit.
-This bot demonstrates many of the core features of Botkit:
 * Connect to Slack using the real time API
 * Receive messages based on "spoken" patterns
 * Reply to messages
@@ -29,6 +27,7 @@ This bot demonstrates many of the core features of Botkit:
   Read all about it here:
     -> http://howdy.ai/botkit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+'use strict'; // heroku node v < 6
 
 if (!process.env.token) {
   console.error('Error: Specify token in environment');
