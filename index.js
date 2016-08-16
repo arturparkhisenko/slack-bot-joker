@@ -14,7 +14,8 @@
   Get a Bot token from Slack:
     -> http://my.slack.com/services/new/bot
   Run your bot from the command line:
-    token=<MY TOKEN> node slack_bot.js
+    token=<MY TOKEN> node index.js
+    win: set token=XXX&& node index.js
 # USE THE BOT:
   Find your bot inside Slack to send it a direct message.
   Say: "Hello"
